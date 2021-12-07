@@ -36,9 +36,9 @@ export class TestData {
             id: 2,
             title: 'Успеть на смену в Макдак',
             priority: TestData.priorities[0],
-            completed: false,
+            completed: true,
             category: TestData.categories[1],
-            date: new Date('2022-04-10')
+            date: new Date('2021-04-10')
         },
         
         {
@@ -63,9 +63,9 @@ export class TestData {
             id: 5,
             title: 'Поиграть в Playstation',
             priority: TestData.priorities[2],
-            completed: false,
+            completed: true,
             category: TestData.categories[4],
-            date: new Date('2022-04-07')
+            date: new Date('2021-04-07')
         },
 
         {
